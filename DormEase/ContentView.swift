@@ -25,12 +25,12 @@ struct ContentView: View {
                         .frame(width: 330, height: 90)
                         .overlay(
                             Capsule()
-                                .stroke(.yellow, lineWidth: 7)
+                                .stroke(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255), lineWidth: 7)
                         )
                         .offset(x: 0, y: -600)
                     
                     Text("Welcome to DormEase")
-                        .foregroundColor(.yellow)
+                        .foregroundColor(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255))
                         .font(.title)
                         .bold()
                         .offset(x: 0, y: -670)
@@ -42,12 +42,12 @@ struct ContentView: View {
                     // Action here
                 }) {
                     Circle()
-                        .stroke(Color.yellow, lineWidth: 4)
+                        .stroke(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255), lineWidth: 7)
                         .frame(width: 160, height: 160)
                         .background(Circle().foregroundColor(.white))
                         .overlay(
                             Text("START!")
-                                .foregroundColor(.yellow)
+                                .foregroundColor(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255))
                                 .font(.system(size: 40, weight: .bold))
                                 .frame(width: 162, height: 32)
                         )
