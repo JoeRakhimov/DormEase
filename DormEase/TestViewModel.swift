@@ -26,6 +26,15 @@ class TestViewModel {
                 Option(text: "more than an hour")
             ]
         ),
+        Question(
+            question: "What services or activities do you consider essential in your area of residence?",
+            options: [
+                Option(text: "schools"),
+                Option(text: "supermarkets"),
+                Option(text: "parks"),
+                Option(text: "restaurants"),
+            ]
+        ),
     ]
     
 }
