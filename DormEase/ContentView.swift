@@ -9,16 +9,58 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("chesc, Arsenii!")
+        ZStack {
+            Image("naplesss")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 520, height:903)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Spacer()
+                
+                
+                    Capsule()
+                        .fill(Color.white)
+                        .frame(width: 330, height: 90)
+                        .overlay(
+                            Capsule()
+                                .stroke(.yellow, lineWidth: 7)
+                        )
+                        .offset(x: 0, y: -600)
+                    
+                    Text("Welcome to DormEase")
+                        .foregroundColor(.yellow)
+                        .font(.title)
+                        .bold()
+                        .offset(x: 0, y: -670)
+                }
+                
+                Spacer()
+                
+                Button(action: {
+                    // Action here
+                }) {
+                    Circle()
+                        .stroke(Color.yellow, lineWidth: 4)
+                        .frame(width: 160, height: 160)
+                        .background(Circle().foregroundColor(.white))
+                        .overlay(
+                            Text("START!")
+                                .foregroundColor(.yellow)
+                                .font(.system(size: 40, weight: .bold))
+                                .frame(width: 162, height: 32)
+                        )
+                }
+                .offset(x: 0, y: 100)
+            }
         }
-        .padding()
+    }
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
 
-#Preview {
-    ContentView()
-}
