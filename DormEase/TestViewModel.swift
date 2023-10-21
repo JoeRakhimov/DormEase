@@ -35,6 +35,28 @@ class TestViewModel {
                 Option(text: "restaurants"),
             ]
         ),
+        Question(
+            question: "Do you have specific cultural or linguistic preferences in your future community?",
+            options: [
+                Option(text: "no, I am open to any culture or language"),
+                Option(text: "I prefer a community sharing my language or culture"),
+                
     ]
-    
+            ),
+        Question(
+            question: "Do you have a preference regarding the type of accommodation?",
+            options: [
+                Option(text: "single room"),
+                Option(text: "shared"),
+                
+                ]
+            ),
+        Question(
+            question: "On what scale is security placed in your priorities?",
+            options: [
+                Option(text: "very high"),
+                Option(text: "moderate"),
+                Option(text: "I have no particular concerns about safety"),
+        ]
+            )]
 }
