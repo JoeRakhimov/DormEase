@@ -11,6 +11,11 @@
 		8A3023DE2AE15F3D00AB3FE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3023DD2AE15F3D00AB3FE1 /* ContentView.swift */; };
 		8A3023E02AE15F3F00AB3FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3023DF2AE15F3F00AB3FE1 /* Assets.xcassets */; };
 		8A3023E32AE15F3F00AB3FE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3023E22AE15F3F00AB3FE1 /* Preview Assets.xcassets */; };
+		8A3023EA2AE17A9500AB3FE1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3023E92AE17A9500AB3FE1 /* TestView.swift */; };
+		8A3023EC2AE17D4B00AB3FE1 /* iOSCheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3023EB2AE17D4B00AB3FE1 /* iOSCheckboxToggleStyle.swift */; };
+		8A65CDC62AE2A77800B5877F /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CDC52AE2A77800B5877F /* TestViewModel.swift */; };
+		8A65CDC82AE2A7B500B5877F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CDC72AE2A7B500B5877F /* Question.swift */; };
+		8A65CDCA2AE2B27A00B5877F /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CDC92AE2B27A00B5877F /* Option.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		8A3023DD2AE15F3D00AB3FE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A3023DF2AE15F3F00AB3FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3023E22AE15F3F00AB3FE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A3023E92AE17A9500AB3FE1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		8A3023EB2AE17D4B00AB3FE1 /* iOSCheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCheckboxToggleStyle.swift; sourceTree = "<group>"; };
+		8A65CDC52AE2A77800B5877F /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		8A65CDC72AE2A7B500B5877F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8A65CDC92AE2B27A00B5877F /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				8A3023DD2AE15F3D00AB3FE1 /* ContentView.swift */,
 				8A3023DF2AE15F3F00AB3FE1 /* Assets.xcassets */,
 				8A3023E12AE15F3F00AB3FE1 /* Preview Content */,
+				8A3023E92AE17A9500AB3FE1 /* TestView.swift */,
+				8A3023EB2AE17D4B00AB3FE1 /* iOSCheckboxToggleStyle.swift */,
+				8A65CDC52AE2A77800B5877F /* TestViewModel.swift */,
+				8A65CDC72AE2A7B500B5877F /* Question.swift */,
+				8A65CDC92AE2B27A00B5877F /* Option.swift */,
 			);
 			path = DormEase;
 			sourceTree = "<group>";
@@ -137,6 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3023EC2AE17D4B00AB3FE1 /* iOSCheckboxToggleStyle.swift in Sources */,
+				8A3023EA2AE17A9500AB3FE1 /* TestView.swift in Sources */,
+				8A65CDCA2AE2B27A00B5877F /* Option.swift in Sources */,
+				8A65CDC62AE2A77800B5877F /* TestViewModel.swift in Sources */,
+				8A65CDC82AE2A7B500B5877F /* Question.swift in Sources */,
 				8A3023DE2AE15F3D00AB3FE1 /* ContentView.swift in Sources */,
 				8A3023DC2AE15F3D00AB3FE1 /* DormEaseApp.swift in Sources */,
 			);
