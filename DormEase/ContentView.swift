@@ -9,19 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        NavigationView{
-            
+        NavigationView {
             ZStack {
                 Image("naplesss")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 520, height:903)
+                    .frame(width: 520, height: 903)
                     .edgesIgnoringSafeArea(.all)
                 
                 VStack {
                     Spacer()
-                    
                     
                     Capsule()
                         .fill(Color.white)
@@ -51,18 +48,17 @@ struct ContentView: View {
                                 .foregroundColor(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255))
                                 .font(.system(size: 40, weight: .bold))
                                 .frame(width: 162, height: 32)
-                        ).offset(x: 0, y: 100)
+                        )
                 }
+                .navigationBarHidden(true)
+                .padding(.bottom, -2000)
             }
         }
     }
 }
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-
