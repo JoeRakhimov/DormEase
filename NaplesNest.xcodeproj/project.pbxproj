@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A3023D82AE15F3D00AB3FE1 /* DormEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DormEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3023D82AE15F3D00AB3FE1 /* NaplesNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaplesNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3023DB2AE15F3D00AB3FE1 /* DormEaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormEaseApp.swift; sourceTree = "<group>"; };
 		8A3023DD2AE15F3D00AB3FE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A3023DF2AE15F3F00AB3FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		8A3023D92AE15F3D00AB3FE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A3023D82AE15F3D00AB3FE1 /* DormEase.app */,
+				8A3023D82AE15F3D00AB3FE1 /* NaplesNest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A3023D72AE15F3D00AB3FE1 /* DormEase */ = {
+		8A3023D72AE15F3D00AB3FE1 /* NaplesNest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A3023E62AE15F3F00AB3FE1 /* Build configuration list for PBXNativeTarget "DormEase" */;
+			buildConfigurationList = 8A3023E62AE15F3F00AB3FE1 /* Build configuration list for PBXNativeTarget "NaplesNest" */;
 			buildPhases = (
 				8A3023D42AE15F3D00AB3FE1 /* Sources */,
 				8A3023D52AE15F3D00AB3FE1 /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = DormEase;
+			name = NaplesNest;
 			productName = DormEase;
-			productReference = 8A3023D82AE15F3D00AB3FE1 /* DormEase.app */;
+			productReference = 8A3023D82AE15F3D00AB3FE1 /* NaplesNest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8A3023D32AE15F3D00AB3FE1 /* Build configuration list for PBXProject "DormEase" */;
+			buildConfigurationList = 8A3023D32AE15F3D00AB3FE1 /* Build configuration list for PBXProject "NaplesNest" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A3023D72AE15F3D00AB3FE1 /* DormEase */,
+				8A3023D72AE15F3D00AB3FE1 /* NaplesNest */,
 			);
 		};
 /* End PBXProject section */
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A3023D32AE15F3D00AB3FE1 /* Build configuration list for PBXProject "DormEase" */ = {
+		8A3023D32AE15F3D00AB3FE1 /* Build configuration list for PBXProject "NaplesNest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A3023E42AE15F3F00AB3FE1 /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A3023E62AE15F3F00AB3FE1 /* Build configuration list for PBXNativeTarget "DormEase" */ = {
+		8A3023E62AE15F3F00AB3FE1 /* Build configuration list for PBXNativeTarget "NaplesNest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A3023E72AE15F3F00AB3FE1 /* Debug */,
