@@ -16,6 +16,7 @@
 		8A65CDC62AE2A77800B5877F /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CDC52AE2A77800B5877F /* TestViewModel.swift */; };
 		8A65CDC82AE2A7B500B5877F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CDC72AE2A7B500B5877F /* Question.swift */; };
 		8A65CDCA2AE2B27A00B5877F /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CDC92AE2B27A00B5877F /* Option.swift */; };
+		A38134F12AEAAEA400E28242 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38134F02AEAAEA400E28242 /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8A65CDC52AE2A77800B5877F /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
 		8A65CDC72AE2A7B500B5877F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		8A65CDC92AE2B27A00B5877F /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		A38134F02AEAAEA400E28242 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				8A65CDCB2AE956CC00B5877F /* Components */,
 				8A3023DB2AE15F3D00AB3FE1 /* DormEaseApp.swift */,
 				8A3023DD2AE15F3D00AB3FE1 /* ContentView.swift */,
+				A38134F02AEAAEA400E28242 /* ResultView.swift */,
 				8A3023DF2AE15F3F00AB3FE1 /* Assets.xcassets */,
 				8A3023E12AE15F3F00AB3FE1 /* Preview Content */,
 				8A3023E92AE17A9500AB3FE1 /* TestView.swift */,
@@ -165,6 +168,7 @@
 				8A65CDCA2AE2B27A00B5877F /* Option.swift in Sources */,
 				8A65CDC62AE2A77800B5877F /* TestViewModel.swift in Sources */,
 				8A65CDC82AE2A7B500B5877F /* Question.swift in Sources */,
+				A38134F12AEAAEA400E28242 /* ResultView.swift in Sources */,
 				8A3023DE2AE15F3D00AB3FE1 /* ContentView.swift in Sources */,
 				8A3023DC2AE15F3D00AB3FE1 /* DormEaseApp.swift in Sources */,
 			);
