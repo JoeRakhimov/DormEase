@@ -29,7 +29,7 @@ struct ContentView: View {
                         )
                         .offset(x: 0, y: -600)
                     
-                    Text("Welcome to DormEase")
+                    Text("Welcome to NaplesNest")
                         .foregroundColor(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255))
                         .font(.title)
                         .bold()

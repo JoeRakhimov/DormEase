@@ -9,10 +9,26 @@ import SwiftUI
 
 struct ResultView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ZStack {
+                Image("San_giovanni_-_barra")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 2000, height: 250)
+                    
+             
+            }
+            
+            Text("Additional Information")
+                .foregroundColor(.black)
+                .font(.body)
+        }
+        .padding()
     }
 }
 
-#Preview {
-    ResultView()
+struct ResultView_Previews: PreviewProvider {
+    static var previews: some View {
+        ResultView()
+    }
 }
