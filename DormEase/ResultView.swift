@@ -8,16 +8,20 @@
 import SwiftUI
 
 struct ResultView: View {
+    
+    var area : Area
+    
+    
     var body: some View {
         VStack {
             ZStack {
-                Image("San_giovanni_-_barra")
+                Image(area.areaImage)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 2000, height: 250)
                     .offset(x: 0, y: -60)
                 
-                Text("San Giovanni-Barra")
+                Text(area.areaName)
                     .foregroundColor(.white)
                     .font(.title)
                     .padding()
@@ -28,7 +32,7 @@ struct ResultView: View {
             
             Spacer()
             
-            Text("University of Naples Federico II - Polytechnic and Basic Sciences School - Naples East Complex\nAddress: Corso Nicolangelo Protopisani, 70, 80146 Naples ΝΑ\n\nEssential Services:\n- Municipality of Naples (Town Hall)\n- UniCredit\n- Post Office - Poste Italiane\n- Decò Maxistore\n\nTransport:\n- Line 2 metro stop: San Giovanni - Barra\n- Circumvesuviana stop: S. Giovanni a Teduccio\n\nAttractions:\n- Church Crowned Mother of Consolation\n- Madonna of the Christopher Columbus arch")
+            Text(area.areaDescription)
                 .foregroundColor(.black)
                 .font(.body)
                 .multilineTextAlignment(.leading)
@@ -40,7 +44,8 @@ struct ResultView: View {
 
 struct ResultView_Previews: PreviewProvider {
     static var previews: some View {
-        ResultView()
+        ResultView(area: Area(areaName: "San Giovanni - Barra",
+            areaImage: "San_giovanni_-_barra", areaDescription: "University of Naples Federico II - Polytechnic and Basic Sciences School - Naples East Complex\nAddress: Corso Nicolangelo Protopisani, 70, 80146 Naples ΝΑ\n\nEssential Services:\n- Municipality of Naples (Town Hall)\n- UniCredit\n- Post Office - Poste Italiane\n- Decò Maxistore\n\nTransport:\n- Line 2 metro stop: San Giovanni - Barra\n- Circumvesuviana stop: S. Giovanni a Teduccio\n\nAttractions:\n- Church Crowned Mother of Consolation\n- Madonna of the Christopher Columbus arch"))
     }
 }
 

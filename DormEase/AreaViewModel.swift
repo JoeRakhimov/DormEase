@@ -10,33 +10,22 @@ import Foundation
 class AreaViewModel {
     
     var areas = [
-        //Municipalità 1
         
-        Area(areaName: "Posillipo"),
-        //Municipalità 2
+        Area(areaName: "Posillipo", areaImage: "Suor_Orsola_", areaDescription: "Suor Orsola Benincasa University - Department of Legal Sciences\nAddress: Corso Vittorio Emanuele, 334, 80135 Naples NA\n\nEssential Services:\n- Police - Commissariat\n\nTransport:\n- Funicular stop: Corso Vittorio Emanuele\n\nAttractions:\n- Cloisters of San Martino\n- Castel Sant'Elmo\n- Neapolitan Twentieth Century Museum\n- Mural Diego Armando Maradona"),
         
-        Area(areaName: "San Giuseppe (Centro Storico"),
-        Area(areaName: "Avvocata"),
-        //Municipalità 3
+        Area(areaName: "Centro Storico", areaImage: "accademia_belle_arti", areaDescription: "Academy of Fine Arts\nAddress: Via Santa Maria di Costantinopoli, 107, 80138 Naples NA\n\nEssential Services:\n- Luigi Vanvitelli University Hospital\n- Pediatric Clinic\n\nTransport:\n- Line 1 metro stop: Museum\n\nAttractions:\n- Bellini Theater in Naples\n- Prince of Naples Gallery\n- LAPIS Museum - Naples Water Museum\n- National Archaeological Museum of Naples"),
         
-        Area(areaName: "Stella"),
-        //Municipalità 4
+        Area(areaName: "Avvocata", areaImage: "", areaDescription: "" ),
         
-        //Municipalità 5
+        Area(areaName: "Stella", areaImage: "", areaDescription: ""),
         
-        Area(areaName: "Vomero"),
-        //Municipalità 6
+        Area(areaName: "Vomero", areaImage: "", areaDescription: ""),
         
-        Area(areaName: "San Giovanni a Teduccio"),
-        //Municipalità 7
+        Area(areaName: "San Giovanni - Barra", areaImage: "San_giovanni_-_barra", areaDescription: "University of Naples Federico II - Polytechnic and Basic Sciences School - Naples East Complex\nAddress: Corso Nicolangelo Protopisani, 70, 80146 Naples ΝΑ\n\nEssential Services:\n- Municipality of Naples (Town Hall)\n- UniCredit\n- Post Office - Poste Italiane\n- Decò Maxistore\n\nTransport:\n- Line 2 metro stop: San Giovanni - Barra\n- Circumvesuviana stop: S. Giovanni a Teduccio\n\nAttractions:\n- Church Crowned Mother of Consolation\n- Madonna of the Christopher Columbus arch"),
         
-        //Municipalità 8
+        Area(areaName: "Fuorigrotta", areaImage: "", areaDescription: ""),
         
-        //Muncipalità 9
         
-        //Municipalità 10
-        
-        Area(areaName: "Fuorigrotta")
         
     ]
 }
