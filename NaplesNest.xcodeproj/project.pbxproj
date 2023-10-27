@@ -61,6 +61,7 @@
 		8A3023DA2AE15F3D00AB3FE1 /* DormEase */ = {
 			isa = PBXGroup;
 			children = (
+				8A65CDCB2AE956CC00B5877F /* Components */,
 				8A3023DB2AE15F3D00AB3FE1 /* DormEaseApp.swift */,
 				8A3023DD2AE15F3D00AB3FE1 /* ContentView.swift */,
 				8A3023DF2AE15F3F00AB3FE1 /* Assets.xcassets */,
@@ -80,6 +81,13 @@
 				8A3023E22AE15F3F00AB3FE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A65CDCB2AE956CC00B5877F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
