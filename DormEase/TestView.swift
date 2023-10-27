@@ -35,7 +35,7 @@ struct TestView: View {
             }
             .padding()
             .navigationTitle("Test")
-            .navigationBarBackButtonHidden(true) // Приховати кнопку "назад"
+            .navigationBarBackButtonHidden(true) 
         }
     }
 }
