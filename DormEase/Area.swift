@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Area: Identifiable {
+    
+    var id: UUID = UUID()
+    
+    var areaName: String = "noname"
+    var areaImage: String = "noimage"
+    var areaDescription: String = "nodescription"
+    
+}
