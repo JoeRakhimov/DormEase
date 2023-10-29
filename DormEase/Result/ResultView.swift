@@ -11,7 +11,6 @@ struct ResultView: View {
     
     var area : Area
     
-    
     var body: some View {
         VStack {
             ZStack {

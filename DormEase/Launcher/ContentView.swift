@@ -50,6 +50,7 @@ struct ContentView: View {
                                 .frame(width: 162, height: 32)
                         )
                 }
+                
                 .navigationBarHidden(true)
                 .padding(.bottom, -2000)
             }
