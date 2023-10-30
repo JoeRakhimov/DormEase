@@ -13,50 +13,51 @@ struct ContentView: View {
             ZStack {
                 Image("naplesss")
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 520, height: 903)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 400, height: 700)
                     .edgesIgnoringSafeArea(.all)
+                    .offset(x: 0, y: -210)
+                
+                Capsule()
+                    .fill(Color.white)
+                    .frame(width: 330, height: 90)
+                    .overlay(
+                        Capsule()
+                            .stroke(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255), lineWidth: 7)
+                    )
+                    .padding(.bottom, 400)
+                
+                Text("Welcome to NaplesNest")
+                    .foregroundColor(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255))
+                    .font(.system(size: 24))
+                    .bold()
+                    .padding(.bottom, 400)
+                
+               
                 
                 VStack {
+                    
                     Spacer()
                     
-                    Capsule()
-                        .fill(Color.white)
-                        .frame(width: 330, height: 90)
-                        .overlay(
-                            Capsule()
-                                .stroke(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255), lineWidth: 7)
-                        )
-                        .offset(x: 0, y: -600)
-                    
-                    Text("Welcome to NaplesNest")
+                    Text("Take test to find the best place to live according to your personality")
                         .foregroundColor(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255))
-                        .font(.title)
+                        .font(.system(size: 20))
                         .bold()
-                        .offset(x: 0, y: -670)
+                        .padding()
+                        .multilineTextAlignment(.center)
+                    
+                    NavigationLink(destination: TestView()) {
+                        PrimaryButton(text: "Lets GO!", background: Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255))
+                    }
+                    .navigationBarHidden(true)
+                    .padding(.bottom, 70)
                 }
-                
-                Spacer()
-                
-                NavigationLink(destination: TestView()) {
-                    Circle()
-                        .stroke(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255), lineWidth: 7)
-                        .frame(width: 160, height: 160)
-                        .background(Circle().foregroundColor(.white))
-                        .overlay(
-                            Text("START!")
-                                .foregroundColor(Color(red: 255 / 255, green: 149 / 255, blue: 0 / 255))
-                                .font(.system(size: 40, weight: .bold))
-                                .frame(width: 162, height: 32)
-                        )
-                }
-                
-                .navigationBarHidden(true)
-                .padding(.bottom, -2000)
+                .padding(.bottom, 30)
             }
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
