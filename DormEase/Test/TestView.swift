@@ -30,6 +30,7 @@ struct TestView: View {
             
             Text(viewModel.question)
                 .font(.system(size: 20))
+                .fixedSize(horizontal: false, vertical: true)
                 .bold()
                 .foregroundColor(.gray)
             
@@ -51,14 +52,13 @@ struct TestView: View {
                 .disabled(!viewModel.optionSelected)
             }
             
+//            Text("IE: \(viewModel.totalIE)")
+//            Text("SN: \(viewModel.totalSN)")
+//            Text("FT: \(viewModel.totalFT)")
+//            Text("JP: \(viewModel.totalJP)")
+//            Text(viewModel.result)
             
-            
-            
-            Text("IE: \(viewModel.totalIE)")
-            Text("SN: \(viewModel.totalSN)")
-            Text("FT: \(viewModel.totalFT)")
-            Text("JP: \(viewModel.totalJP)")
-            Text(viewModel.result)
+            Spacer()
             
         }
         .padding()

@@ -22,7 +22,7 @@ class TestViewModel: ObservableObject {
     
     var questions: [Question] = [
         Question( // 1
-            question: "makes lists - relies on memory",
+            question: "Which describes you more: makes lists or relies on memory?",
             minValue: "makes lists",
             maxValue: "relies on memory",
             jp: 1
@@ -139,18 +139,18 @@ class TestViewModel: ObservableObject {
     func setQuestion() {
         if index < length {
             optionSelected = false
-            question = questions[index].question
+            question = "Which describes you more: \(questions[index].minValue) or \(questions[index].maxValue)?"
             setOptions()
         }
     }
     
     fileprivate func setOptions() {
         options = [
-            Option(text: "1 - \(questions[index].minValue)", value: 1),
-            Option(text: "2", value: 2),
-            Option(text: "3", value: 3),
-            Option(text: "4", value: 4),
-            Option(text: "5 - \(questions[index].maxValue)", value: 5)
+            Option(text: "\(questions[index].minValue)", value: 1),
+            Option(text: "closer to '\(questions[index].minValue)'", value: 2),
+            Option(text: "somewhere in between", value: 3),
+            Option(text: "closer to '\(questions[index].maxValue)'", value: 4),
+            Option(text: "\(questions[index].maxValue)", value: 5)
         ]
     }
     

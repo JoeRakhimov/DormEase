@@ -37,11 +37,16 @@ struct AreasView: View {
                         }
                     }
                     
-                    
+                }.padding(.horizontal)
+                
+                NavigationLink(destination: TestView()) {
+                    PrimaryButton(text: "Take test again", background:Color("AccentColor"))
                 }.padding()
+                
             }
             .navigationTitle("Result")
-        }
+            
+        }.navigationBarBackButtonHidden(true)
     }
     
 }

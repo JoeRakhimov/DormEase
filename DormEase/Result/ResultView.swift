@@ -13,31 +13,21 @@ struct ResultView: View {
     
     var body: some View {
         VStack {
-            ZStack {
-                Image(area.areaImage)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 2000, height: 250)
-                    .offset(x: 0, y: -60)
-                
-                Text(area.areaName)
-                    .foregroundColor(.white)
-                    .font(.title)
-                    .padding()
-                    .background(Color.orange.opacity(0.7))
-                    .cornerRadius(15)
-                    .offset(x: 0, y: -60)
-            }
-            
-            Spacer()
+    
+            Image(area.areaImage)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(height: 250)
             
             Text(area.areaDescription)
                 .foregroundColor(.black)
                 .font(.body)
                 .multilineTextAlignment(.leading)
-                .padding(.horizontal, 25)
-                .offset(x: 0, y: -70)
-        }
+                .padding()
+            
+            Spacer()
+            
+        }.navigationTitle(area.areaName)
     }
 }
 
