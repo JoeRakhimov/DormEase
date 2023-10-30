@@ -14,5 +14,6 @@ struct Area: Identifiable {
     var areaName: String = "noname"
     var areaImage: String = "noimage"
     var areaDescription: String = "nodescription"
+    var personalityTypes: [String] = []
     
 }

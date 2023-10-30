@@ -76,8 +76,8 @@ class TestViewModel: ObservableObject {
             ie: -1
         ),
         Question( // 10
-            question: "ocused on the present - focused on the future",
-            minValue: "ocused on the present",
+            question: "focused on the present - focused on the future",
+            minValue: "focused on the present",
             maxValue: "focused on the future",
             sn: 1
         ),
@@ -139,7 +139,7 @@ class TestViewModel: ObservableObject {
     func setQuestion() {
         if index < length {
             optionSelected = false
-            question = "Which describes you more: \(questions[index].minValue) or \(questions[index].maxValue)?"
+            question = "Which describes you more?"
             setOptions()
         }
     }

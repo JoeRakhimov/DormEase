@@ -10,12 +10,12 @@ import SwiftUI
 struct AreasView: View {
     
     @EnvironmentObject var testViewModel: TestViewModel
-    var viewModel = AreaViewModel()
+    @StateObject var viewModel = AreaViewModel()
     
     var body: some View {
         NavigationStack {
             ScrollView {
-                ForEach(viewModel.areas) { area in
+                ForEach(viewModel.filteredAreas) { area in
                     
                     NavigationLink {
                         ResultView(area: area)
@@ -45,7 +45,9 @@ struct AreasView: View {
                 
             }
             .navigationTitle("Result")
-            
+            .onAppear(perform: {
+                viewModel.filterAreasByPersonalityType(personalityType: testViewModel.result)
+            })
         }.navigationBarBackButtonHidden(true)
     }
     

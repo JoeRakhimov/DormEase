@@ -121,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				A38134F02AEAAEA400E28242 /* ResultView.swift */,
-				A3846AF12AEBF6BF0016C43E /* Area.swift */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -131,6 +130,7 @@
 			children = (
 				A3846AF32AEBF6C40016C43E /* AreaViewModel.swift */,
 				8A65CDDC2AEF0FC100B5877F /* AreasView.swift */,
+				A3846AF12AEBF6BF0016C43E /* Area.swift */,
 			);
 			path = Areas;
 			sourceTree = "<group>";
